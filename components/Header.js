@@ -12,8 +12,7 @@ export default function Header() {
   return (
     <header className="siteHeader">
       <Link className="brand" href="/" aria-label="Groxa.AI home">
-        <span className="brandIcon">G</span>
-        <span>Groxa.AI</span>
+        <img src="/GLogo-cropped.png" alt="Groxa.AI logo" className="brandLogo" />
       </Link>
       <nav>
         {navItems.map(([label, href]) => (

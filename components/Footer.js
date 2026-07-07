@@ -29,7 +29,7 @@ export default function Footer() {
       <div className="shell footerTop">
         <div className="footerIntro">
           <div className="brand footerBrand">
-            <span className="brandIcon">G</span>
+            <img src="/GLogo-cropped.png" alt="Groxa.AI logo" className="brandLogo" />
             <span>Groxa.AI</span>
           </div>
           <p>
